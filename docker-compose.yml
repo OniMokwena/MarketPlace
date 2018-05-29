@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  marketplacecode:
+    image: ${DOCKER_REGISTRY}marketplacecode
+    build:
+      context: .
+      dockerfile: MarketPlaceCode/Dockerfile
